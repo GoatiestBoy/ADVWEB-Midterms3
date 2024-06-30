@@ -1,0 +1,18 @@
+{
+  "name": "iacademy-welcome-kit-website",
+  "version": "1.0.0",
+  "description": "advanced web programming midterms",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Richard M. Sahagun Jr.",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "concat": "^1.0.3",
+    "node-sass": "^9.0.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^11.0.0"
+  }
+}
